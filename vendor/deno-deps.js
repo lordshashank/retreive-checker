@@ -30970,7 +30970,7 @@ function uptime() {
     var dif = currentTime - startTime;
     return dif / 1e3;
 }
-var process = {
+export var process = {
     nextTick: nextTick1,
     title,
     browser,
